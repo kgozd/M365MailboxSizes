@@ -21,7 +21,7 @@ The M365MailboxSizes PowerShell script is designed to collect mailbox sizes of g
 5. The script will collect mailbox size data and save it to a CSV file.
 
 ## License
-This script is licensed under the [your license type] license. See the [LICENSE](LICENSE) file for more details.
+This script is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
 kgozdz
