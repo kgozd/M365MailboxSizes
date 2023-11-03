@@ -20,7 +20,7 @@ function get_user_data {
     
     $MS365_group = (Get-AzureADGroup -SearchString $group_name)
     Write-Host "Full group name:" $MS365_group.DisplayName
-    Write-Host "Greoup Email:" $MS365_group.Mail `n`n
+    Write-Host "Group Email:" $MS365_group.Mail `n`n
     $Users = Get-AzureADGroupMember -All:$true -ObjectId  $MS365_group.ObjectId | Where-Object { $_.AssignedLicenses.Count -gt 0 -and $_.AccountEnabled -eq $true }
 
     $UserInformation = @()
