@@ -24,7 +24,5 @@ The M365MailboxSizes PowerShell script is designed to collect mailbox sizes of g
 This script is licensed under the [your license type] license. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
-[Your Name]
+kgozdz
 
-## Contact
-If you have any questions or need assistance, please contact [Your Email Address].
